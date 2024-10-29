@@ -19,7 +19,7 @@ npx prisma generate
 ## Proceso que integra la información de visitas
 El archivo `process.sh` es un script escrito en shell el cual tiene tres variables que deben ser cambiadas. REMOTE_PATH y LOCAL_PATH ya fueron seteadas acorde a los requerimientos.
 ```sh
-REMOTE_PATH="/home/vinkOS/archivosVisitas"archivos
+REMOTE_PATH="/home/vinkOS/archivosVisitas"
 LOCAL_PATH="/home/etl/visitas"
 NODE_PATH="/node/v20.14.0/bin/node"
 ```
